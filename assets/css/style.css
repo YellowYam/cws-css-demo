@@ -9,6 +9,11 @@ body {
     background-color: #d9dcd6;
 }
 
+p {
+    font-size: 16px;                       /*Typography*/
+}
+/*End setup*/
+
 /*Style and positioning for header */
 header {
     padding: 20px;
@@ -17,16 +22,16 @@ header {
     color: #ffffff;
 }
 
-header h1 {
+ h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+ .seo {
     color: #d9dcd6;
 }
 
-header nav {                                /*Nav style and positioning */
+ nav {                                /*Nav style and positioning */
     padding-top: 15px;                                                  
     margin-right: 20px;
     float: right;
@@ -38,21 +43,19 @@ header nav {                                /*Nav style and positioning */
     list-style-type: none;                
 }                                           /*Chrome browser applies this style by default */
 
-header nav ul li {
+li {
     display: inline-block;
     margin-left: 25px;
 }
 
 a {
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: none;            
 }
 
 /* End header */
 
-p {
-    font-size: 16px;
-}
+
 
 section.hero {                             /*Style and position hero*/
     height: 800px;
@@ -61,16 +64,6 @@ section.hero {                             /*Style and position hero*/
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-}
-
-.float-left {                               /*Float classes for content images */
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 
 
@@ -110,6 +103,16 @@ section.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+.float-left {                               /*Float classes for content images */
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
  /*Style and position content articles*/
